@@ -1,0 +1,102 @@
+#aboutContainer{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    margin-top: 21px;
+    /* background-color: antiquewhite; */
+}
+
+#aboutBody{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;;
+    height: 90%;
+}
+
+#leftHalf{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+    /* overflow:hidden; */
+}
+
+#aboutImg{
+    background-image: url("./../assets/me2.jpeg");
+    /* background-color: black; */
+    /* object-fit: contain; */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    object-fit: cover;
+}
+
+#rightHalf{
+    background-color:rgb(75, 75, 75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    /* overflow-y: auto; */
+    /* margin:0; */
+    border: 0;
+    /* text-overflow:ellipsis; */
+}
+
+#titleAboutMe{
+    font-size: xx-large;
+    font-weight: 600;
+    /* background-color: antiquewhite; */
+    margin: 0;
+}
+#bodyAboutMe{
+    padding: 0 5vw;
+}
+.paraPoints{
+    text-align: left;
+}
+@media (max-width: 760px){
+    #aboutBody{
+        flex-direction: column;
+    }
+    #aboutContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: antiquewhite; */
+    }
+    #rightHalf{
+        width: 100%;
+        height: 57%;
+        min-height: 150px;
+        /* overflow: scroll; */
+        padding: 0;
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    #leftHalf{
+        width: 100%;
+        height: 40%;
+    }
+    #bodyAboutMe{
+        padding: 0 5vw;
+    }
+    .paraExtra{
+        display: none;
+    }
+}

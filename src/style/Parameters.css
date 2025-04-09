@@ -1,0 +1,153 @@
+/* #main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+#mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputs{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#buttonDiv{
+    width: 100%;
+}
+
+#submitButton{
+    margin: 0 13px;
+    width: 34%;
+    height: 40px;
+    max-width: 55%;
+    padding: 8px;
+    border-radius: 21px;
+    border: 0;
+}
+
+#dropdownLang{
+    margin: 0 0 34px 0;
+    padding: 5px;
+}
+
+#contentDiv{
+    margin: 21px;
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#movie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    background-color: rgb(62, 62, 62);
+}
+
+#movieRating{
+    margin-left: 10px;
+    padding: 3px;
+    background-color: aliceblue;
+    color: black;
+}
+
+#movieCard{
+    margin: 21px 0;
+    margin-left: 25%;
+    width: 89%;
+}
+
+#movieImg{
+    display: flex;
+    width: 34%;
+    /* background-color: white; */
+}
+
+#movieRightHalf{
+    /* background-color: blue; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+#movieTitle{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+#movieDesc{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    /* background-color: aliceblue; */
+}
+
+img{
+    height: 34vh;
+    object-fit: contain;
+}
+
+@media (max-width: 760px){
+    #movie{
+        flex-direction: column;
+        /* width: 85%; */
+        width: 45.5%;
+        height: auto;
+        margin-left: 20px;
+        /* background-color: white; */
+        background-color: #242424;
+    }
+    img{
+        height: 53vw;
+    }
+    #movieImg{
+        min-height: 100px;
+        width: 100%;
+    }
+    #movieCard{
+        padding: 0;
+        /* margin-right: 20px; */
+        /* justify-content: left; */
+        /* width: 85%; */
+    }
+    #title{
+        flex-direction: column;
+        width: 150px;
+    }
+    #languages{
+        margin: 13px 0 8px 0;
+        padding: 5px;
+    }
+    #movieTitle{
+        font-size:1rem;
+        /* background-color: white; */
+        /* width: 150px; */
+        /* margin-left: 45%; */
+    }
+    #movieRating{
+        margin: 10px;
+    }
+    #movieDesc{
+        display: none;
+    }
+    #movieRightHalf{
+        width: 35vw;
+        /* background-color: white; */
+    }
+}

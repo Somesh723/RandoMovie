@@ -1,0 +1,50 @@
+#mainContainerDirections{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    /* background-color: blue; */
+}
+#titleDirections{
+    padding: 0;
+}
+#bodyDirections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.steps{
+    font-size: large;
+    font-weight: 600;
+    /* background-color: blue; */
+    width: 50%;
+    margin-top: 3vh;
+}
+.stepsHeading{
+    margin: 1vh 0;
+}
+.stepsDesc{
+    text-align: left;
+}
+.stepsBodyPoints{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    /* background-color: brown; */
+    font-size: medium;
+    font-weight: 400;
+}
+@media (max-width: 760px){
+    #titleDirections{
+        margin-top: 3vh;
+        font-size: x-large;
+    }
+    .steps{
+        min-width: 300px;
+    }
+}
