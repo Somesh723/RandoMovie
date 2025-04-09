@@ -12,7 +12,7 @@ function Home() {
                 <h2 id="contentBody">You've come to the right place! </h2>
                 <p>With just a few clicks, you can get movie suggestions based on your preferred genres and language</p>
                 {/* <h2>just select the language and the genres you have in mind and we'll take care of the rest!!</h2> */}
-                <Link to="//RandoMovie/movies" id="toMovies"><button>Let's Go</button></Link>
+                <Link to="/RandoMovie/movies" id="toMovies"><button>Let's Go</button></Link>
             </div>
         </div>
     );
