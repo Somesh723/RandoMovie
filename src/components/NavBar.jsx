@@ -9,12 +9,12 @@ function NavBar() {
     return (
         <>
             <div id="mainNav">
-                <Link id="logo" to='/'>RandoMovie</Link>
+                <Link id="logo" to='/RandoMovie//'>RandoMovie</Link>
                 <div>
                     <div id="navLinks">
-                        <Link className="linkItem" to="/about">About Me</Link>
-                        <Link className="linkItem" to="/contact">Contact Me</Link>
-                        <Link className="linkItem" to="/directions">Directions</Link>
+                        <Link className="linkItem" to="/RandoMovie//about">About Me</Link>
+                        <Link className="linkItem" to="/RandoMovie//contact">Contact Me</Link>
+                        <Link className="linkItem" to="/RandoMovie//directions">Directions</Link>
                     </div>
                     <button id="burgerMenu" onClick={() => setIsOpen(!isOpen)}><img src={Menu} id="menuImg" /></button>
                 </div>
@@ -23,9 +23,9 @@ function NavBar() {
                     <div className="backdrop" onClick={() => setIsOpen(false)}>
                     <button id="burgerSideMenu" ><img src={Cross} id="menuImg" /></button>
                         <div id="mobileLinks">
-                            <Link className="mobileLinkItem" to="/about">About Me</Link>
-                            <Link className="mobileLinkItem" to="/contact">Contact Me</Link>
-                            <Link className="mobileLinkItem" to="/directions">Directions to use</Link>
+                            <Link className="mobileLinkItem" to="/RandoMovie//about">About Me</Link>
+                            <Link className="mobileLinkItem" to="/RandoMovie//contact">Contact Me</Link>
+                            <Link className="mobileLinkItem" to="/RandoMovie//directions">Directions to use</Link>
                         </div>  
                     </div>
                 </>}

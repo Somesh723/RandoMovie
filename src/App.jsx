@@ -14,11 +14,12 @@ function App() {
       <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/movies" element={<Movie />} />
-        <Route path="/directions" element={<Directions />} />
+        <Route path="/RandoMovie/" element={<Home />} />
+        <Route path="/RandoMovie/about" element={<About />} />
+        <Route path="/RandoMovie/contact" element={<Contact />} />
+        <Route path="/RandoMovie/movies" element={<Movie />} />
+        <Route path="/RandoMovie/directions" element={<Directions />} />
+        <Route path="/*" element={<Home />} />
       </Routes>
       </BrowserRouter>
       

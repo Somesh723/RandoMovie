@@ -96,6 +96,9 @@
 }
 
 @media (max-width: 760px){
+    #mainNav{
+        height: 3.5vh;
+    }
     #navLinks{
         display: none;
     }
