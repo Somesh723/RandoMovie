@@ -73,3 +73,11 @@ h1{
 #contentBody{
     margin-top: 13vw;
 }
+@media (max-width: 760px){
+    #mainContainerHome{
+        height: 84vh;
+    }
+    #mainContainerHome::before{
+        height: 84vh;
+    }
+}
