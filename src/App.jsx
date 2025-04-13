@@ -11,7 +11,7 @@ import Directions from './components/Directions';
 function App() {
   return (
     <>
-      <BrowserRouter basename="/tothepoint_login">
+      <BrowserRouter basename="/RandoMovie">
       <NavBar />
       <Routes>
         <Route path="/RandoMovie/" element={<Home />} />
